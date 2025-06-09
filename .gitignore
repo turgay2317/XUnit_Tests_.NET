@@ -1,0 +1,68 @@
+# Build çıktıları
+bin/
+obj/
+
+# User-specific ayarlar
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VSCode / VS
+.idea/
+.vscode/
+*.code-workspace
+
+# Test sonuçları ve geçici dosyalar
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.vsp
+*.vspx
+*.vsmdi
+
+# DotCover
+*.dotCover
+
+# Logs
+*.log
+
+# Paketler (NuGet)
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+*.deps.json
+
+# publish klasörü
+publish/
+
+# .NET Secret Manager dosyaları
+secrets.json
+
+# global.json cache
+global.json
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# SonarQube
+.sonar/
+
+# Windows dosya sistemi özel dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*~
+
+# JetBrains Rider test cache
+.idea/
